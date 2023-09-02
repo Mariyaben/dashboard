@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Font+Awesome+5+Brands:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-font-awesome-5-brands: "Font Awesome 5 Brands";
+  --font-open-sans: "Open Sans";
+  --font-cairo: Cairo;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-sm: 14px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --white: #fff;
+  --iris-80: #7879f1;
+  --dark04: #1e1c3a;
+  --dark03: #1c1a33;
+  --dark02: #15132b;
+  --dark01: #0d0b21;
+  --color-silver-100: #c4c4c4;
+  --accent02: #e328af;
+  --color-blueviolet: #6418c3;
+  --accent01: #5ecfff;
+  --dark05: #464366;
+  --color-midnightblue: #211a75;
+  --color-darkgray-100: #aaa;
+  --grey-01: #a5a5a5;
+  --green: #38e25d;
+  --yellow: #ffab2d;
+  --red: #ff4a55;
+  --grey-03: #f5f5f5;
+
+  /* border radiuses */
+  --br-5xs: 8px;
+  --br-11xl: 30px;
+  --br-13xl: 32px;
+  --br-sm: 14px;
+  --br-27xl: 46px;
+  --br-base: 16px;
+  --br-xl: 20px;
+
+  /* Effects */
+  --shadow-black01: 18px 4px 35px rgba(0, 0, 0, 0.15);
+  --shadow01: 0px 4px 4px rgba(0, 0, 0, 0.04);
+  --shadow02: 0px 4px 8px rgba(0, 0, 0, 0.12);
+  --shadow-black02: 20px 26px 34px rgba(0, 0, 0, 0.48);
+  --shadow-blue: 0px 14px 28px rgba(94, 207, 255, 0.12);
+}
