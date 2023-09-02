@@ -21,3 +21,6 @@ To get started with this project, follow these steps:
 
 5. Open your web browser and navigate to http://localhost:3000 to view the application.
 
+
+Project is hosted at dashboard-one-green.vercel.app
+
