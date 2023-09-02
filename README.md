@@ -5,7 +5,7 @@ To get started with this project, follow these steps:
 
 1. Clone the repository:
    
-   https://github.com/Mariyaben/dashboard.git
+   git clone https://github.com/Mariyaben/dashboard.git
 
 2. Navigate to the project directory:
 
