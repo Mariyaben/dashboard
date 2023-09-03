@@ -5,16 +5,15 @@
 .background1 {
   position: absolute;
   top: 0;
-  left: calc(50% - 960px);
-  width: 1920px;
-  height: 1241px;
+  width: 100%;
+  height: 100%;
 }
 .background2 {
   left: calc(50% - 169px);
   border-radius: var(--br-xl);
   background-color: var(--dark01);
-  width: 339px;
-  height: 856px;
+  width: 100px;
+  height: 100%;
 }
 .background2,
 .background3,
@@ -27,7 +26,7 @@
   border-radius: var(--br-sm);
   background-color: var(--color-midnightblue);
   box-shadow: var(--shadow01);
-  width: 339px;
+  width: 100%;
   height: 229px;
 }
 .dueIn4 {
@@ -390,6 +389,7 @@
   top: 0;
   left: calc(50% - 169.5px);
   height: 81px;
+  width:fit-content;
   text-align: left;
   font-size: var(--font-size-xl);
   color: var(--white);
@@ -929,7 +929,7 @@
   border-radius: var(--br-sm);
   background-color: var(--dark02);
   box-shadow: var(--shadow01);
-  width: 1476px;
+  width: 100%;
   height: 206px;
 }
 .centeredMartialArts,
@@ -1189,8 +1189,8 @@ line-height: normal;
 }
 .title5 {
   top: 0;
-  left: calc(50% - 907.5px);
-  width: 1476px;
+  left: calc(20% - 507.5px);
+  width: 80%;
   height: 206px;
   font-size: var(--font-size-base);
   color: var(--white);
@@ -1198,10 +1198,9 @@ line-height: normal;
 }
 .content {
   position: absolute;
+  width: 100%;
+  height:max-content;
   top: 150px;
-  left: calc(50% - 565px);
-  width: 1815px;
-  height: 1091px;
   color: var(--grey-01);
   font-family: var(--font-open-sans);
 }
@@ -1552,8 +1551,7 @@ line-height: normal;
 }
 .nav {
   top: 0;
-  left: calc(50% - 960px);
-  width: 1920px;
+  width: 100%;
   height: 120px;
   color: var(--Dark01, #0D0B21);
 font-family: Cairo;
@@ -2015,9 +2013,9 @@ line-height: normal;
 .sidebar {
   position: absolute;
   top: 0;
-  left: calc(50% - 960px);
+  left: 0px;
   width: 345px;
-  height: 1180px;
+  height:100%;
   font-size: var(--font-size-5xl);
 }
 .boardpage {
